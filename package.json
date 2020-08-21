@@ -1,0 +1,43 @@
+{
+  "name": "grpc-task",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github-personal.com:nikhilfusion/grpc-task.git",
+  "author": "Nikhil T Nair <nikhiltnair@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@grpc/grpc-js": "~1.0.5",
+    "@grpc/proto-loader": "~0.5.4",
+    "google-protobuf": "~3.12.0",
+    "grpc-web": "~1.2.1"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.3",
+    "webpack": "4.42.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

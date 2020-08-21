@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package dob;
+
+service GetDOB {
+  rpc GetYearAndMonth (AgeRequest) returns (AgeResponse);
+}
+
+message AgeRequest {
+  int32 year = 1;
+  int32 month = 2;
+}
+
+message AgeResponse {
+  int32 ageYear = 1;
+  int32 ageMonth = 2;
+}
